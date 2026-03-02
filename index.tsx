@@ -360,7 +360,7 @@ export default definePlugin({
                 const parsedUrl = new URL(avatarUrl);
                 const image_name = parsedUrl.pathname.split("/").pop()?.replace(/\.(gif|webp)$/i, ".png");
                 if (image_name) {
-                    return CDN_URL + "/avatar/" + image_name;
+                    return CDN_URL + "/avatars/" + image_name;
                 }
             }
             return original(user, animated, size);
