@@ -307,7 +307,7 @@ export default definePlugin({
         if (settings.store.enableAvatarDecorations) {
             if (canAnimate && avatarDecoration?.animated) {
                 if (avatarDecoration?.skuId === SKU_ID) {
-                    const url = new URL(`${CDN_URL}/decor_presets/${avatarDecoration?.asset}.png`);
+                    const url = new URL(`${CDN_URL}/decors/${avatarDecoration?.asset}.png`);
                     return url.toString();
                 } else {
                     const url = new URL(`https://cdn.discordapp.com/avatar-decoration-presets/${avatarDecoration?.asset}.png`);
@@ -315,7 +315,7 @@ export default definePlugin({
                 }
             } else {
                 if (avatarDecoration?.skuId === SKU_ID) {
-                    const url = new URL(`${CDN_URL}/decor_presets/${avatarDecoration?.asset}.png`);
+                    const url = new URL(`${CDN_URL}/decors/${avatarDecoration?.asset}.png`);
                     return url.toString();
                 } else {
                     const url = new URL(`https://cdn.discordapp.com/avatar-decoration-presets/${avatarDecoration?.asset}.png?passthrough=false`);
