@@ -4,13 +4,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-export const INVITE_LINK = "ffmkewQ4R7";
+export const INVITE_LINK = "5q9sZKB3NB";
 export const BASE_URL = "http://127.0.0.1:8000";
 export const CDN_URL = BASE_URL + "/images";
-export const API_BANNER_URL = BASE_URL + "/api/banners";
-export const API_AVATAR_URL = BASE_URL + "/api/avatars";
 export const API_BADGE_URL = BASE_URL + "/api/badges";
-export const API_NAMEPLATE_URL = BASE_URL + "/api/nameplates";
 export const API_DECOR_URL = BASE_URL + "/api/decors";
 export const SKU_ID = "100101099222224";
 export const RAW_SKU_ID = "11497119";
